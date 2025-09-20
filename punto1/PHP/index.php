@@ -2,22 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Resultado</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Números Pares e Impares</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
-    <h1>Resultado</h1>
-
+    <h1>Identificador de Números Pares e Impares</h1>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $entrada = $_POST["numeros"];
         $valores = explode(",", $entrada);
 
-        echo "<h2>Output:</h2>";
+        echo "<h2>Resultado:</h2>";
         echo "<ul>";
 
         foreach ($valores as $valor) {
-            $valor = trim($valor); // eliminar espacios
+            $valor = trim($valor); 
 
             if (filter_var($valor, FILTER_VALIDATE_INT) !== false) {
                 if ($valor % 2 == 0) {
@@ -33,8 +32,6 @@
         echo "</ul>";
     }
     ?>
-
-    <br>
-    <a href="index.html">Volver</a>
 </body>
 </html>
+
