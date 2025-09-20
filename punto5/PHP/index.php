@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="contenedor">
-    <h1>✨ Resultado de la búsqueda</h1>
+    <h1>Resultado de la búsqueda</h1>
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
