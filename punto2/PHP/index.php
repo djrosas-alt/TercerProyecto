@@ -26,7 +26,7 @@ function factorial($n) {
 <head>
     <meta charset="UTF-8">
     <title>Resultado - Calculadora Fibonacci y Factorial</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
     <div class="container">
@@ -54,10 +54,11 @@ function factorial($n) {
             }
             echo '</div>';
         } else {
-            echo "<p>No se recibieron datos.</p>";
+            echo "No se recibieron datos.";
         }
         ?>
         <p><a href="index.html">Volver</a></p>
     </div>
 </body>
 </html>
+

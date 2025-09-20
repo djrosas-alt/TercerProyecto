@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f0f0f0;
+    background-color: #6aa9e9;
 }
-.container {
-    background-color: white;
+.container {    
+    background-color: rgb(172, 181, 206);
     padding: 20px 30px;
     border-radius: 8px;
     max-width: 400px;
@@ -26,15 +26,15 @@ input[type="number"], select {
     margin-top: 5px;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #a9afcd;
 }
 input[type="submit"] {
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #007bff;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -44,7 +44,7 @@ input[type="submit"]:hover {
 }
 .resultado {
     margin-top: 20px;
-    background-color: #e9ecef;
+    background-color: #58a7f6;
     padding: 15px;
     border-radius: 6px;
     font-family: monospace;
