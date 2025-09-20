@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Operaciones con Conjuntos</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Operaciones con Conjuntos</h2>
+        <form method="post" action="PHP/index.php">
+            <label for="conjuntoA">Ingrese conjunto A (números enteros separados por comas):</label>
+            <input type="text" id="conjuntoA" name="conjuntoA" placeholder="Ejemplo: 1,2,3,4" required>
+
+            <label for="conjuntoB">Ingrese conjunto B (números enteros separados por comas):</label>
+            <input type="text" id="conjuntoB" name="conjuntoB" placeholder="Ejemplo: 3,4,5,6" required>
+
+            <label for="operacion">Seleccione la operación:</label>
+            <select id="operacion" name="operacion" required>
+                <option value="union">Unión (A ∪ B)</option>
+                <option value="interseccion">Intersección (A ∩ B)</option>
+                <option value="diferenciaAB">Diferencia (A - B)</option>
+                <option value="diferenciaBA">Diferencia (B - A)</option>
+            </select>
+
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+</body>
+</html>
