@@ -71,10 +71,7 @@ function esEntero($num) {
                 
                 if ($b_int == 0) {
                     echo "El número $b no se puede usar como divisor (división por cero).";
-                } else {
-                    if ($a_int % $b_int == 0) {
-                        echo "El número $a es divisible entre el número $b.";
-                    } else {
+                else {
                         echo "El número $a no es divisible entre el número $b.";
                     }
                 }
