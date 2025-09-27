@@ -29,7 +29,7 @@ function diferencia($A, $B) {
 <head>
     <meta charset="UTF-8">
     <title>Resultado - Operaciones con Conjuntos</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
     <div class="container">

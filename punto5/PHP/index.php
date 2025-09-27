@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Resultado</title>
-  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
   <div class="contenedor">

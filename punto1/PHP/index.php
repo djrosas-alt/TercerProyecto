@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Números Pares e Impares</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
     <h1>Identificador de Números Pares e Impares</h1>

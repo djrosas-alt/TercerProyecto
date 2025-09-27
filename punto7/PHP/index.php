@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Árbol Binario</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
 <div class="contenedor">
