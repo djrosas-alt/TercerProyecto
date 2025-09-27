@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reconstrucción de Árbol Binario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Reconstrucción de Árbol Binario</h1>
+
+    <p class="ayuda">
+      Ingresa <strong>dos</strong> recorridos: 
+      <em>Preorden + Inorden</em> o <em>Postorden + Inorden</em>.<br>
+      Usa comas para separar los nodos (ej: A,B,D,E,C).
+    </p>
+
+    <form method="post" action="index.php" id="form-arbol">
+      <label for="preorden">Preorden</label>
+      <input type="text" id="preorden" name="preorden" placeholder="Ej: A,B,D,E,C">
+
+      <label for="inorden">Inorden</label>
+      <input type="text" id="inorden" name="inorden" placeholder="Ej: D,B,E,A,C">
+
+      <label for="postorden">Postorden</label>
+      <input type="text" id="postorden" name="postorden" placeholder="Ej: D,E,B,C,A">
+
+      <button type="submit">Construir Árbol</button>
+    </form>
+
+    <small class="nota">
+      Nota: El formulario se envía a <code>index.php</code> que reconstruye el árbol y muestra los resultados.
+    </small>
+  </div>
+</body>
+</html>
