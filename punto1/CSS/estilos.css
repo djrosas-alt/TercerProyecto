@@ -50,15 +50,15 @@ li {
 }
 
 .par {
-    color: blue;
+    color: #e215e5;
 }
 
 .impar {
-    color: green;
+    color: rgb(143, 50, 214);
 }
 
 .noentero {
-    color: red;
+    color: rgb(156, 92, 92);
 }
 
 a {
